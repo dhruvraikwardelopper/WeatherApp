@@ -14,7 +14,7 @@ export default function WheatherApp() {
         temp_min: 29,
     })
     let updateData = (result) => {
-        console.log(result)
+        console.log(result,"ok")
         setNewData({...result});
        
     }
